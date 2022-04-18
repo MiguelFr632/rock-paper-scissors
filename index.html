@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel e Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Vamos jogar Pedra, Papel e Tesoura!</h1>
+    <h3>Para começar, escolha sua opção!</h3>
+    <div>
+        <img src="imgs/pedra.jpg" alt="pedra" onclick="play(0)" title="Pedra" width="15%">
+        <img src="imgs/papel.jpg" alt="papel" onclick="play(1)" title="Papel" width="14%">
+        <img src="imgs/tesoura.jpeg" alt="tesoura" onclick="play(2)" title="Tesoura" width="16.5%">
+    </div>
+
+    <div>
+        <p id="winner">Quem ganhou?</p>
+        <p id="score">Player 0 x 0 IA</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
